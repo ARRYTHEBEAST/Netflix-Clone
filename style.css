@@ -84,3 +84,25 @@ nav button {
     height: 5px;
     background-color: rgb(105, 104, 104);
 }
+
+.btn{
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.redbtn{
+    padding: 4px 24px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main input{
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(23,23,23,0.23);
+}

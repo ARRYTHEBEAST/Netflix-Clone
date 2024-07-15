@@ -4,30 +4,41 @@
 }
 
 .main{
-    background-image: url('assets/images/bg.jpg');
-    background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
-    height: 80vh; 
-    position: relative;
+    background-image: url(assets/images/bg.jpg);
     background-position: center center;
-    
-
+    background-repeat: no-repeat;
+    background-size: max(1600px, 100vw);
+    height: 80vh;
+    position: relative;
 }
 
-.main .box{
+.box{
     height: 80vh;
     width: 100%;
-    opacity: 0.45;
-    background-color: black;
     position: absolute;
-    top: 0%;
+    top: 0;
+    background-color: black;
+    opacity: 0.44;
 }
 
 nav{
+    max-width: 80vw;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
-    margin: auto;
-    justify-content: space-between;
+    height: 52px;
+
+}
+
+nav img{
+    color: red;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
 }

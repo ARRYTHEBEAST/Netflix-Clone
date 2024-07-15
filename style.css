@@ -14,7 +14,7 @@
     position: relative;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -24,7 +24,7 @@ body{
     position: absolute;
     top: 0;
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.5;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav button {
 }
 
 .hero {
-    height: 100%;
+    height: calc(100% - 52px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,20 +60,27 @@ nav button {
     position: relative;
     /* font-size: 48px; */
     /* font-weight: 900; */
-    padding: 30px;
+    padding: 0 30px;
     gap: 15px;
 
 
 }
 
 .hero> :first-child {
+    font-family: 'poppins';
     font-weight: bolder;
     text-align: center;
     font-size: 48px;
 }
 
 .hero> :nth-child(2) {
+    font-family: 'poppins';
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+}
+
+.seperation {
+    height: 5px;
+    background-color: rgb(105, 104, 104);
 }
